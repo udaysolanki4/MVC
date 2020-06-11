@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+<h1>Update Customer</h1>
+<form action="CustomerController" method="post">
+<input type="hidden" name="source" value="update">
+<table>
+<tr>
+<th align="left">Customer ID :</th>
+<td><input type="text" name="customerId"/></td></tr>
+<tr><th align="left">Update :</th>
+<td><input type="radio" name="updateParam" value="city" checked>City &nbsp;&nbsp;&nbsp;
+<input type="radio" name="updateParam" value="contact">Contact</td>
+</tr>
+
+<tr><td></td><td><input type="text" name="updateValue"/></td> </tr>
+<tr><td></td><td align="center"><input type="submit" value="SUBMIT"></td> </tr>
+</table>
+
+</form>
+</center>
+</body>
+</html>
