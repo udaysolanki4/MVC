@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Search Customer</h1>
+<form action="CustomerController" method="post">
+<table>
+<tr>
+<th align="left">Search With :</th>
+<td><input type="radio" name="searchParam" value="customerId" checked>Customer Id</td>
+<td><input type="radio" name="searchParam" value="city">City </td>
+<td><input type="radio" name="searchParam" value="hobby">Hobby</td>
+</tr>
+<tr> <td> </td>
+<td><input type="text" name="searchValue"/></td> </tr>
+</table>
+<input type="submit" value="SUBMIT">
+</form>
+</body>
+</html>
